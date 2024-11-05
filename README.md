@@ -27,6 +27,7 @@ Application
 
 Extende: JFrame
 Função: Interface gráfica de uma aplicação desktop para gerenciar despesas, com funcionalidades para adicionar, atualizar, excluir e listar despesas.
+
 Estrutura e Componentes
 Atributos
 DespesaDAO dao: Instância do DAO para manipulação dos dados das despesas.
@@ -50,6 +51,7 @@ Métodos Principais
 adicionarDespesa()
 Descrição: Método para adicionar uma nova despesa. Solicita ao usuário dados como descrição, data, valor e categoria.
 Categoria Padrão: Se a categoria inserida for inválida, a categoria padrão será "OUTRAS".
+
 Persistência: Salva a despesa no banco de dados usando DespesaDAO.save.
 atualizarDespesa()
 
@@ -64,8 +66,11 @@ Persistência: Remove a despesa do banco de dados usando DespesaDAO.delete.
 listarDespesas()
 
 Descrição: Exibe uma tabela com todas as despesas armazenadas.
+
 Tabela: Cria um modelo de tabela com colunas para ID, Descrição, Data, Valor e Categoria.
+
 Interface: Exibe a tabela em uma janela pop-up com a lista de despesas.
+
 parseDate(String dateStr)
 
 Descrição: Converte uma string em LocalDate. Se o formato for inválido, retorna a data atual.
