@@ -31,8 +31,10 @@ Função: Interface gráfica de uma aplicação desktop para gerenciar despesas,
 Estrutura e Componentes
 Atributos
 DespesaDAO dao: Instância do DAO para manipulação dos dados das despesas.
+
 Construtor: Application()
 Configuração da Janela: Define título, tamanho, comportamento de fechamento e layout.
+
 Componentes da Interface:
 Logo: Exibido na parte superior da janela.
 Título: Nome "Gerenciador de Despesas" com fonte e estilo personalizados.
