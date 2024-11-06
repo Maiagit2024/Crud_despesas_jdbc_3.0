@@ -2,8 +2,13 @@ Documentação Técnica
 
 **Descrição**
 
-O projeto consiste explicar a utilização do conceito e práticas da utilização do programa.
+O projeto consiste explicar a utilização do conceito e práticas da utilização do programa,antes de tudo o programa precisa ter na sua maquina instalada JDK, IDLE INTELLIJ E O BANCO DE DADOS POSTGRESQL.
 
+Através deste site será feito download para sua máquina possa ter o java que permite criar software em java de acordo com seu sistema operacional  https://www.oracle.com/br/java/technologies/downloads/#jdk23-windows.
+
+Download PostgreSQL é um sistema gerenciador de banco de dados objeto relacional https://www.postgresql.org/download/.
+
+Download do INTELLIJ uma IDE que é um ambiente de desenvolvimento integrado escrito em Java para o desenvolvimento de software de computador escrito em Java. https://www.jetbrains.com/idea/download/?section=windows.
 
 Importações
 DAO e Modelos:
